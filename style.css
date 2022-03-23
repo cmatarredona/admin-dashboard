@@ -1,0 +1,99 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin: 0;
+    height: 100vh;
+}
+#dashboard{
+    background-color: #1992d4;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+#dashboard ul li{
+    margin: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+li{
+    list-style: none;
+}
+#heade{
+    box-shadow: 2px 5px 20px gray;
+}
+#heade>div{
+    display: flex;
+    justify-content: space-between;
+}
+#profile{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    font-weight: bold;
+}
+#searchBar{
+    width: 1000px;
+    margin: 10px;
+}
+#prof2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#prof2>*{
+    display: flex;
+    flex-direction: column;
+}
+#navMenu>ul{
+    display: flex;
+    gap: 16px;
+    flex-direction: row;
+}
+#navMenu>ul>li{
+    background-color: #1992d4;
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+    width: 100px;
+    text-align: center;
+}
+#conteni{
+    background-color: #e2e8f0;
+    margin-top: -10px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+#projects>div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#projectsConte>div{
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 15px;
+}
+#other{
+    display: flex;
+    flex-direction: column;
+}
+#announcements>div{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: white;
+}
+#announcements>div>div{
+    border-bottom:1px solid gray;
+}
+#profiles>div{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: white;
+}
+#profiles>div>div{
+    border-bottom:1px solid gray;
+}
